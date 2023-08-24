@@ -1,14 +1,6 @@
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua/)
-
-# Portfolio
-
-<img src="https://bogdankostyuk.xyz/logo.png" align="right"
-     alt="Portfolio logo by Bogdan Kostyuk" width="120" height="120">
 
 This is my portfolio, where you can find little summery of my developer road. Also there are some of
 projects that i am using quite often
-
-> BTW: [previous portfolio](https://next.portfolio-5iw.pages.dev/)
 
 ## License
 

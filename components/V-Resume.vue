@@ -39,11 +39,12 @@ onMounted(() => {
 
 <template>
   <section ref="contact" class="contact" data-scroll-section>
-    <NuxtLink
+    <a
       ref="contactEmail"
-      v-hoverable.mail
-      href="mailto:kartiknc11@gmail.com"
+      href="https://drive.google.com/file/d/18voCcZdz4yGXHEzjcwd5yVxK9trS-oxw/view?usp=sharing"
+      
       class="contact__email"
+      download="Kartik_Chaudhari_Resume.pdf"
     >
       <span
         v-for="row in rowsCount"
@@ -58,11 +59,11 @@ onMounted(() => {
           aria-hidden="true"
           class="contact__email__row__text"
         >
-          Send me an <span class="serif">email</span
+          View<span class="serif">My Resume!</span
           ><span v-if="textKey !== textCount">&nbsp; - &nbsp;</span>
         </span>
       </span>
-    </NuxtLink>
+    </a>
   </section>
 </template>
 

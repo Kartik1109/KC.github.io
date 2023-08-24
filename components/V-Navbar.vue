@@ -18,8 +18,9 @@ const navMenuButtonSVG = ref(null);
 
 const links = [
   { label: 'Home', action: () => $smoothScroll.scrollTo(0) },
-  { label: 'Projects', action: () => $smoothScroll.scrollTo('.projects') },
   { label: 'About', action: () => $smoothScroll.scrollTo('.about-me') },
+  { label: 'Resume', action: () => $smoothScroll.scrollTo('.resume') },
+  { label: 'Projects', action: () => $smoothScroll.scrollTo('.projects') },
   { label: 'Contact', action: () => $smoothScroll.scrollTo('.contact') },
 ];
 
@@ -192,7 +193,7 @@ onMounted(() => {
       @click="() => $smoothScroll.scrollTo(0)"
       @keypress.enter.space.prevent="() => $smoothScroll.scrollTo(0)"
     >
-      BK
+      KC
     </p>
 
     <ul v-show="route.name === 'index'" ref="navList" class="nav__list">

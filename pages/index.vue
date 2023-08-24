@@ -8,9 +8,9 @@ if (process.server) {
 }
 
 useHead({
-  title: 'Front End Developer',
+  title: 'Software Developer Intern',
   meta: [
-    { property: 'og:title', name: 'og:title', content: 'Front End Developer' },
+    { property: 'og:title', name: 'og:title', content: 'Software Developer Intern' },
     { name: 'description', content: 'Perfection hides in details' },
     {
       property: 'og:description',
@@ -61,8 +61,10 @@ useImagesLoaded(indexPage, () => emitter.emit('images:loaded'));
     <div class="smooth-scroll-fix">
       <VHeader />
       <main>
-        <VProjects />
         <VAboutMe />
+        <VResume />
+        <VProjects />
+        
         <VContact />
       </main>
     </div>

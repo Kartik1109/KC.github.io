@@ -18,6 +18,13 @@ const navigationalLinks = [
     },
   },
   {
+    label: 'Resume',
+    action: () => {
+      $smoothScroll.scrollTo('.resume');
+      isShowingMenu.value = false;
+    },
+  },
+  {
     label: 'Projects',
     action: () => {
       $smoothScroll.scrollTo('.projects');

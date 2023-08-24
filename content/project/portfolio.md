@@ -36,7 +36,7 @@ While building this website, I faced a lot of different and exceptional issues. 
 - [github](https://github.com/logotip4ik)
 - [twitter](https://twitter.com/BogdanKostyuk_)
 - [telegram](https://t.me/bogdankostyuk)
-- [linkedin](https://www.linkedin.com/in/bogdankostyuk)
+- [linkedin](https://www.linkedin.com/in/kartikchaudhary11)
 - [blog](https://blog.bogdankostyuk.xyz)
 - [email](mailto:contact@bogdankostyuk.xyz)
 
